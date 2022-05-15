@@ -1,0 +1,17 @@
+.btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 250ms linear;
+}
+.btn:not(:last-child) {
+    margin-right: 15px;
+}
+.btn:hover,
+.btn:focus {
+    color: black;
+    background-color: transparent;
+}
